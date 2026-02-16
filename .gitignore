@@ -1,0 +1,70 @@
+# ======================
+# Environment & Secrets
+# ======================
+.env
+.env.*
+*.key
+*.pem
+*.crt
+*.token
+
+# ======================
+# Python
+# ======================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+venv/
+.venv/
+env/
+pip-wheel-metadata/
+
+# ======================
+# Node.js
+# ======================
+node_modules/
+npm-debug.log*
+yarn-error.log*
+pnpm-lock.yaml
+
+# ======================
+# Logs
+# ======================
+*.log
+logs/
+*.out
+
+# ======================
+# Databases
+# ======================
+*.db
+*.sqlite
+*.sqlite3
+data/*.json
+data/*.db
+
+# ======================
+# OS / Editor Junk
+# ======================
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
+
+# ======================
+# Build / Cache
+# ======================
+dist/
+build/
+.cache/
+.tmp/
+
+# ======================
+# Bot-specific
+# ======================
+config.json
+secrets.json
+tokens.json
